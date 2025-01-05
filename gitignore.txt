@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.deps/
+package-lock.json
+yarn.lock
+
+# Compiler files
+cache/
+artifacts/
+.states/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage directory
+coverage/
+coverage.json
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Contract specific
+contracts/*
+!contracts/Jimp.sol
+!contracts/presale.sol
+
+# Testing
+coverage/
+coverage.json
+typechain/
+typechain-types/
+
+# Hardhat files
+test-results/
+cache_hardhat/
+.openzeppelin/
+
+# Temporary files
+*.log
+.DS_Store
+
+# Specific files to ignore
+deploy_with_ethers.ts
+deploy_with_web3.ts
+web3-lib.ts
+ethers-lib.ts
+Ballot_test.sol
+storage.test.js
+
+# Duplicates (mentioned multiple times in original list)
+# deploy_with_ethers.ts
+# ethers-lib.ts
